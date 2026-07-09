@@ -1,5 +1,46 @@
 {
-    "updated": "2026-07-09T09:59:15.379553",
+    "updated": "2026-07-09T11:35:19.872505+00:00",
     "monsterHigh": [],
-    "funko": []
+    "funko": [
+        {
+            "name": "NYCC Limited Edition The Fairly OddParents Timmy, Cosmo, & Wanda Glow Mini Backpack",
+            "store": "Funko"
+        },
+        {
+            "name": "Emily in Paris Limited Edition Camera All-Over Print Mini Backpack",
+            "store": "Funko"
+        },
+        {
+            "name": "Pokémon Teddiursa Limited Edition Sherpa Cosplay Mini Backpack",
+            "store": "Funko"
+        },
+        {
+            "name": "Pokémon Teddiursa Limited Edition Sherpa Cosplay Zip Around Wallet",
+            "store": "Funko"
+        },
+        {
+            "name": "SDCC Limited Edition Stitch Molded Figural Crossbody Bag",
+            "store": "Funko"
+        },
+        {
+            "name": "SDCC Limited Edition Stitch Floral Unisex Hoodie",
+            "store": "Funko"
+        },
+        {
+            "name": "NYCC Limited Edition The Fairly OddParents Lenticular 3\" Collector Box Pin",
+            "store": "Funko"
+        },
+        {
+            "name": "SDCC Limited Edition Fantastic Four Uniform Full-Size Backpack with Pin",
+            "store": "Funko"
+        },
+        {
+            "name": "SDCC Limited Edition Hello Kitty & Friends Color Block Terry Cloth Mini Backpack",
+            "store": "Funko"
+        },
+        {
+            "name": "Pop! Cinnamoroll (Cowboy) with Pop! Protector",
+            "store": "Funko"
+        }
+    ]
 }
