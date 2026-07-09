@@ -4,14 +4,18 @@ fetch("latest.json")
     })
     .then(function(data) {
 
-        document.getElementById("last-update").textContent =
-            "Última actualización: " + data.updated;
+        var updateElement = document.getElementById("last-update");
 
-        console.log(data);
+        if (updateElement) {
+            updateElement.textContent =
+                "Última actualización: " + data.updated;
+        }
+
+        console.log("Datos cargados:", data);
 
     })
     .catch(function(error) {
 
-        console.error("Error cargando latest.json:", error);
+        console.error("Error cargando datos:", error);
 
     });
