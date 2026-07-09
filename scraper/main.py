@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, UTC
 from pathlib import Path
 
 
@@ -10,7 +10,7 @@ OUTPUT = ROOT / "docs" / "latest.json"
 
 data = {
 
-    "updated": datetime.utcnow().isoformat(),
+    "updated": datetime.now(datetime.UTC).isoformat(),
 
     "monsterHigh": [],
 
