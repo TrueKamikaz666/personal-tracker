@@ -1,23 +1,44 @@
-from sources.monsterhigh.mattel import Mattel
+import json
+from datetime import datetime
+from pathlib import Path
 
 
-sources = [
+ROOT = Path(__file__).resolve().parent.parent
 
-    Mattel()
-
-]
+OUTPUT = ROOT / "docs" / "latest.json"
 
 
-monster_high = []
+data = {
+
+    "updated": datetime.utcnow().isoformat(),
+
+    "monsterHigh": [],
+
+    "funko": []
+
+}
 
 
-for source in sources:
+with open(
 
-    monster_high.append(
+    OUTPUT,
 
-        source.run()
+    "w",
+
+    encoding="utf-8"
+
+) as file:
+
+    json.dump(
+
+        data,
+
+        file,
+
+        indent=4,
+
+        ensure_ascii=False
 
     )
 
-
-print(monster_high)
+print("latest.json generated")
